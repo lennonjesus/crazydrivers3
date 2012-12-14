@@ -1,5 +1,6 @@
-import org.junit.*
 import grails.test.mixin.*
+import crazydrivers3.Circuit
+import crazydrivers3.CircuitController
 
 @TestFor(CircuitController)
 @Mock(Circuit)

@@ -1,3 +1,4 @@
+package crazydrivers3
 class Race {
 
     Date date
@@ -6,7 +7,9 @@ class Race {
 
     static hasOne = [circuit:Circuit]
 
-    static hasMany = [positions:Position]
+    static hasMany = [positions:Position, bestLaps:BestLap]
+
+
 
     static constraints = {
 

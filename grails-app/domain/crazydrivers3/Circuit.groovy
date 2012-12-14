@@ -1,8 +1,9 @@
+package crazydrivers3
 class Circuit {
 
     String name
 
-    CircuitType type
+//    crazydrivers3.CircuitType type
 
     static hasMany = [races:Race]
 

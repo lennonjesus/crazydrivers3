@@ -1,5 +1,6 @@
-import org.junit.*
 import grails.test.mixin.*
+import crazydrivers3.Driver
+import crazydrivers3.DriverController
 
 @TestFor(DriverController)
 @Mock(Driver)

@@ -1,6 +1,8 @@
+package crazydrivers3
+
 import org.springframework.dao.DataIntegrityViolationException
 
-class PositionController {
+class CircuitController {
 
 //    static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
 

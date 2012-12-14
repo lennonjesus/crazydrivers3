@@ -1,12 +1,13 @@
+package crazydrivers3
 class Driver {
 
     String name
 
-    Integer idade
+    Integer age
 
     String email
 
-//    static hasMany = [position:Position]
+//    static hasMany = [position:crazydrivers3.Position]
 
 
     static constraints = {

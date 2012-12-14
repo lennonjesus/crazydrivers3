@@ -1,5 +1,6 @@
-import org.junit.*
 import grails.test.mixin.*
+import crazydrivers3.Season
+import crazydrivers3.SeasonController
 
 @TestFor(SeasonController)
 @Mock(Season)

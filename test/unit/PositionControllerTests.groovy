@@ -1,5 +1,6 @@
-import org.junit.*
 import grails.test.mixin.*
+import crazydrivers3.Position
+import crazydrivers3.PositionController
 
 @TestFor(PositionController)
 @Mock(Position)

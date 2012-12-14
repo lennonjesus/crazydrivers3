@@ -1,3 +1,5 @@
+package crazydrivers3
+
 class Position {
 
     Integer number
@@ -5,8 +7,6 @@ class Position {
     Driver driver
 
     PositionType type
-
-    BestLap bestLap
 
     static belongsTo = [race:Race, driver:Driver]
 
@@ -26,7 +26,7 @@ class Position {
     }
 
     String toString() {
-        "${number} - ${driver} - ${bestLap} - ${type}"
+        "${number} - ${driver} - ${type}"
     }
 
     int compareTo(Position position) {
@@ -37,23 +37,5 @@ class Position {
 	
 }
 
-class BestLap {
 
-    BigDecimal minutes
-
-    BigDecimal seconds
-
-    BigDecimal miliseconds
-
-    static constraints = {
-        minutes(range: 0..59)
-        seconds(range: 0..59)
-        miliseconds(range: 0..999)
-    }
-
-    String toString() {
-        "${minutes}:${seconds}:${miliseconds}"
-    }
-
-}
 
